@@ -10,5 +10,4 @@ public record RegisterUserRequest (
         String email,
         @NotEmpty(message = "A senha é obrigatório")
         String userPassword
-) {
-}
+) {}
